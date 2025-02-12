@@ -1,20 +1,19 @@
 # 🚗 Car Price Prediction using Linear Regression
 
 ## 📌 Overview
-This project uses **linear regression** to predict car prices based on various features such as **KM_ Driven, age, brand, fuel type, and other specifications**. The goal is to create an efficient model that helps users estimate a car’s market value using historical data.
+This project uses **linear regression** to predict car prices based on various features such as **KMs_Driven, age, brand, fuel type, and other specifications**. The goal is to create an efficient model that helps users estimate a car’s market value using historical data.
 
 ---
 
 ## 📊 Dataset
 The dataset consists of multiple features that impact car prices. Some of the key attributes include:
 - **Brand**: The manufacturer of the car (e.g., Toyota, Ford, BMW).
-- **Model**: The specific model of the car.
 - **Year**: Manufacturing year of the vehicle.
-- **Mileage**: Distance the car has been driven.
+- **KMs_Driven**: Distance the car has been driven.
 - **Fuel Type**: Petrol, Diesel, Electric, etc.
 - **Transmission**: Manual or Automatic.
-- **Engine Power**: Power output of the car’s engine.
-- **Price** (Target variable): The actual selling price of the car.
+- **Present Price**: The actual price of the car.
+- **Selling Price** (Target variable): The actual selling price of the car.
 
 ---
 
@@ -57,5 +56,23 @@ The project includes exploratory data analysis (EDA) with visualizations:
 ## 🚀 How to Run the Project
 ### 1️⃣ Clone the Repository
 ```bash
-git clone <repo-link>
-cd car-price-prediction
+git clone <https://github.com/itsKgs/CarPricePrediction.git>
+cd CarPricePrediction
+
+---
+
+<h3>2️⃣ Install Dependencies</h3>
+<p>Ensure you have Python installed, then run:</p>
+<pre>
+<code>
+pip install -r requirements.txt
+</code>
+</pre>
+
+<h3>3️⃣ Run the Model</h3>
+<p>Execute the following command to run the model:</p>
+<pre>
+<code>
+python CarPricePrediction.ipynb
+</code>
+</pre>
